@@ -20,7 +20,7 @@ set "build_type=%1"
 set "target=%2"
 
 :set_build_dir
-set "ws_root="
+set "ws_root=C:\ProgramData\Jenkins\.jenkins\workspace\Git_source_test\RTOS\Mutex"
 set "build_dir=%ws_root%\%build_type%"
 
 "%ws_root%\CICDTool\build.bat" "%build_dir%" %build_type% %target%
