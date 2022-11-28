@@ -1,5 +1,5 @@
 rem
-rem usage: build build-dir {Debug|Release} {all|clean}
+rem usage: build build-dir {RTOS/Mutex/Debug|Release} {all|clean}
 rem
 
 setlocal
