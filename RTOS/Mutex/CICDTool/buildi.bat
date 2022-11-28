@@ -23,4 +23,4 @@ set "target=%2"
 set "ws_root=C:\Users\harip\STM32CubeIDE\workspace_1.10.1\Mutex_Semaphore"
 set "build_dir=%ws_root%\%build_type%"
 
-"%ws_root%\ci-cd-tools\build.bat" "%build_dir%" %build_type% %target%
+"%ws_root%\CICDTool\build.bat" "%build_dir%" %build_type% %target%
